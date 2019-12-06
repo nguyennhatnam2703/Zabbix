@@ -86,7 +86,7 @@ systemctl enable zabbix-server
   
 - Sau đó chọn Finish
 
-  ![]( /image/z6.png)
+  ![]( /image/z6.PNG)
   
 # tham khao
 -  https://news.cloud365.vn/zabbix-cai-dat-zabbix-server-phien-ban-4-4-tren-centos7/?fbclid=IwAR3fF2ildx8MORPW4hs9uCDcxuTllbOMLGlGkoiTPTi7X2I8k0i1Dzt1suk
