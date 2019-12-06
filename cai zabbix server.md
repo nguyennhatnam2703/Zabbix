@@ -3,32 +3,50 @@
 
 - Bước chuẩn bị:
   sudo systemctl disable firewalld
+  
   sudo systemctl stop firewalld
+  
   sed -i 's/SELINUX=enforcing/SELINUX=disabled/g' /etc/sysconfig/selinux
+  
   sudo setenforce 0
    
 - Bước 1: Cài đặt database và 1 số gói phụ trợ, ở đây tôi sử dụng MySQL
 
   yum update -y
+  
   yum install php php-devel php-bcmath php-pear php-gd php-mbstring php-mysql php-xml -y
   
 - Cài đặt MySQL 
+
   yum install wget
   wget http://repo.mysql.com/mysql-community-release-el7-5.noarch.rpm
+  
   rpm -ivh mysql-community-release-el7-5.noarch.rpm
+  
   yum install mysql-server -y
+  
   systemctl start mysqld
+  
   systemctl enable mysqld 
 
 - Đặt mật khẩu cho user root của MySQL
+
   mysql_secure_installation <<EOF
+  
   Y
+  
   nam
+  
   nam
+  
   Y
+  
   Y
+  
   Y
+  
   Y
+  
   EOF
 
 - Bước 2: Login vào database để tạo user, phân quyền…
@@ -43,9 +61,9 @@ exit
 
 - Bước 3: Cài đặt gói Zabbix cần thiết
 
-rpm -Uvh https://repo.zabbix.com/zabbix/4.4/rhel/7/x86_64/zabbix-release-4.4-1.el7.noarch.rpm
-yum install zabbix-server-mysql -y
-yum install zabbix-web-mysql -y
+- rpm -Uvh https://repo.zabbix.com/zabbix/4.4/rhel/7/x86_64/zabbix-release-4.4-1.el7.noarch.rpm
+- yum install zabbix-server-mysql -y
+- yum install zabbix-web-mysql -y
 
 - Bước 4: Import database Zabbix nếu sử dụng MySQL
  zcat /usr/share/doc/zabbix-server-mysql*/create.sql.gz | mysql -uzabbix -p zabbix
@@ -86,7 +104,7 @@ systemctl enable zabbix-server
   
 - Sau đó chọn Finish
 
-  ![]( /image/z6.png)
+  ![]( /image/z6.PNG)
   
 # tham khao
 -  https://news.cloud365.vn/zabbix-cai-dat-zabbix-server-phien-ban-4-4-tren-centos7/?fbclid=IwAR3fF2ildx8MORPW4hs9uCDcxuTllbOMLGlGkoiTPTi7X2I8k0i1Dzt1suk
