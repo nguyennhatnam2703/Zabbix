@@ -7,7 +7,7 @@
  do quá tải, sự cố server...
 - Zabbix ra đời nhằm giải quyết cho ta các vấn đề về giám sát.
 
-# Giới thiệu Zabbix
+# Zabbix là gì? Chức năng của nó ?
 - Zabbix là một công cụ mã nguồn mở giải quyết cho ta các vấn đề về giám sát.
 - Zabbix là phần mềm sử dụng các tham số của một mạng, tình trạng và tính toàn vẹn của Server cũng như các thiết bị mạng.
 - Zabbix sử dụng một cơ chế thống báo linh hoạt cho phép người dùng cấu hình email hoặc sms để cảnh báo dựa trên sự kiện được ta thiết lập sẵn.
