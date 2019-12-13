@@ -31,6 +31,12 @@ giám sát.
 - Không có giao diện web mobile hỗ trợ
 - 
 
+# Yêu cầu tối thiểu phần cứng
+
+- CPU(Central Processing Unit): 2core
+- RAM: 1G
+- DISK:50G
+
 # Các thành phần cơ bản của Zabbix
 
 - Zabbix server
