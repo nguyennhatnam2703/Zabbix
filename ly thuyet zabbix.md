@@ -39,19 +39,20 @@ giám sát.
 
 # Các thành phần cơ bản của Zabbix
 
-- Zabbix server
+- ![]( /image/ctzabbix.png)
+- `Zabbix server`
   + Zabbix Server có thể kiểm tra các dịch vụ mạng từ xa thông qua các báo cáo của Agent gửi về cho Zabbix Server và từ đó nó sẽ lưu trữ tất cả các cấu hình 
   cũng như là các số liệu thống kê.
 
-- Zabbix Proxy
+- `Zabbix Proxy`
   + Là phần tùy chọn của Zabbix. Nó có nhiệm vụ thu nhận dữ liệu, lưu trong bộ nhớ đệm và chuyển đến Zabbix Server.
   + Đây là một tùy chọn nên bạn có thể cài nó hoặc không nhưng nó sẽ rất hữu ích với hột hệ thống lớn. Nó sẽ giúp giảm tải cho Zabbix Server.
   + Zabbix Proxy là một giải pháp lý tưởng cho việc giám sát tập trung của các địa điểm từ xa, chi nhánh công ty, các mạng lưới không có quản trị viên nội bộ.
 
-- Zabbix Agent:
+- `Zabbix Agent`:
   + Zabbix Agent được cài đặt trên các thiết bị mà ta cần giám sát. Nó sẽ có nhiệm vụ thu thập thông tin và gửi nó về Zabbix Server.
 
-- Web interface:
+- `Web interface`:
   + Web interface giúp ta có thể truy cập để theo dõi các thiết bị ở bất kỳ đâu. Nó là một phần của zabbix server.
   
 - Database sử dụng MariaDB, MySQL, PostgresSQL để lưu trữ dữ liệu thu thập được. 
