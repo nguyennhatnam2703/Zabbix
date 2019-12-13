@@ -56,6 +56,18 @@ giám sát.
   + Web interface giúp ta có thể truy cập để theo dõi các thiết bị ở bất kỳ đâu. Nó là một phần của zabbix server.
   
 - Database sử dụng MariaDB, MySQL, PostgresSQL để lưu trữ dữ liệu thu thập được. 
+
+# Một số khái niệm
+
+- Host: Là một máy tính, server, vps, chạy các hệ điều hành khác nhau hoặc một thực thể trong hệ thống mạng như là máy in, máy chấm công, máy photo, máy camera có hỗ trợ các giao thức mà monitor zabbix cung cấp
+
+- Templates: Là một bố cục hay một thành phần được tạo ra sẳn để không cần phải lặp đi lặp lại khi gặp đúng 1 trường hợp.
+
+- Items : Đơn giản là một nơi chứa các key như là key memory, key cpu, key hdd… Items được đưa vào trong một templates.
+
+- Triggers : Là một điều kiện khi thỏa mãn điều kiện của Triggers mà người lập trình đặt ra thì sẽ thực hiện một hành động nào đó tiếp theo.
+
+- Graphs : Là một sơ đồ giám sát trực quan để người quản trị nhìn các thông tin một cách dễ dàng hơn.
  
 
 
@@ -68,8 +80,8 @@ giám sát.
 
 
 # Tham khảo
-- https://news.cloud365.vn/zabbix-cai-dat-zabbix-server-phien-ban-4-4-tren-centos7/?fbclid=IwAR3fF2ildx8MORPW4hs9uCDcxuTllbOMLGlGkoiTPTi7X2I8k0i1Dzt1suk
-- https://news.cloud365.vn/zabbix-giam-sat-server-centos-7-bang-zabbix-agent/?fbclid=IwAR0N5VbXVoqIFuVAfZsLzJ-MSIvaoofSmvh7alcpzIXWNbjqg2hBRGzr6rI
+- 
+- 
 - https://techblog.vn/tong-quan-ve-zabbix
 - https://github.com/quangln94/Linux/tree/master/Monitoring/Zabbix
 - https://www.facebook.com/groups/quantrimang365/permalink/808013262983356/
