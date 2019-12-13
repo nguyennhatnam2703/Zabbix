@@ -26,6 +26,11 @@ giám sát.
 - Thông báo sự cố qua email và SMS
 - Mã nguồn mở và chi phí thấp
 
+# Nhược điểm của Zabbix
+
+- Không có giao diện web mobile hỗ trợ
+- 
+
 # Các thành phần cơ bản của Zabbix
 
 - Zabbix server
