@@ -2,16 +2,18 @@
 # Tìm hiểu về Zabbix
 
 # Mục đích ra đời
-- Giám sát mạng có vị trí rất quan trọng trong một công ty và nó còn đặc biệt quan trọng hơn đối với các công ty làm việc dựa vào các dịch vụ công nghệ thông tin.
-- Hệ thống giám sát có thể tìm và giúp đỡ giải quyết việc tải trang web snail-paced, mất mát email, hoạt động của người truy vấn và truyền tải file, nguyên nhân 
- do quá tải, sự cố server...
-- Zabbix ra đời nhằm giải quyết cho ta các vấn đề về giám sát.
+- Tìm và giúp đỡ giải quyết việc tải trang web snail-paced, mất mát email, hoạt động của người truy vấn và truyền tải file, nguyên nhân do quá tải, sự cố server… là những tiện ích từ việc giám sát mạng và Zabbix là một trong những công cụ được sinh ra để giải quyết vấn đề 
+giám sát.
 
-# Giới thiệu Zabbix
+# Zabbix là gì? 
 - Zabbix là một công cụ mã nguồn mở giải quyết cho ta các vấn đề về giám sát.
-- Zabbix là phần mềm sử dụng các tham số của một mạng, tình trạng và tính toàn vẹn của Server cũng như các thiết bị mạng.
-- Zabbix sử dụng một cơ chế thống báo linh hoạt cho phép người dùng cấu hình email hoặc sms để cảnh báo dựa trên sự kiện được ta thiết lập sẵn.
-- Ngoài ra Zabbix cung cấp báo cáo và dữ liệu chính xác dựa trên cơ sở dữ liệu.
+- Zabbix được sáng lập bởi Alexei Vladishev và hiện nay đang được phát triển và hỗ trợ bởi Zabbix SIA.
+- Zabbix được viết và phát hành dưới bản quyền General Public License GPL phiên bản 2
+
+# Chức năng của nó ?
+- phần mềm zabbix có thể theo dõi các thông số của mạng và tình trạng của server. 
+- Zabbix sử dụng các phương pháp cảnh báo linh hoạt, cho phép bạn cấu hình cảnh báo dựa trên email hoặc SMS cho hầu hết các sự kiện xảy ra, nắm bắt nhanh các sự cố xảy ra của server.
+- Zabbix còn hỗ trợ chức năng báo cáo, tổng hợp và dự đoán dữ liệu tốt dựa trên những dữ liệu có sẵn đã được lưu trữ
 
 # Ưu điểm của Zabbix
 
@@ -23,6 +25,17 @@
 - Giao diện web đẹp mắt
 - Thông báo sự cố qua email và SMS
 - Mã nguồn mở và chi phí thấp
+
+# Nhược điểm của Zabbix
+
+- Không có giao diện web mobile hỗ trợ
+- 
+
+# Yêu cầu tối thiểu phần cứng
+
+- CPU(Central Processing Unit): 2core
+- RAM: 1G
+- DISK:50G
 
 # Các thành phần cơ bản của Zabbix
 
