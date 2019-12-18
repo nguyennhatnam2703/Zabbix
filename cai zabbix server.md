@@ -108,5 +108,7 @@ systemctl enable zabbix-server
   
 # tham khao
 -  https://news.cloud365.vn/zabbix-cai-dat-zabbix-server-phien-ban-4-4-tren-centos7/?fbclid=IwAR3fF2ildx8MORPW4hs9uCDcxuTllbOMLGlGkoiTPTi7X2I8k0i1Dzt1suk
+
+-https://viblo.asia/p/tim-hieu-ve-zabbix-phan-2-d6BAMYZAGnjz?__cf_chl_captcha_tk__=ec8b80b378f12dd8813e0cb5090db67f78260a61-1576231718-0-AQsumMCHbU85pvNDnL69zWt9ltpy3YT5N0BkZk7GtsNGivkvoACHQ3N3WYK9ESOgypNYMVGG49a5GwQUTBKmsqtIEptSf5MmsvO8aK7GF6BiquddDWPvQ2WxRBwQcdgDSGsSB_bWx5TX6DYsPvYZULxOuUsAEEngbFk9WpfnAN1wBwGf8HdgM_LoqsuGojlA0nYbrIUM8shC1vA3bukABTx9v4mxkvfhaA2R8kLpRwm3562tZ9KoY2FfpDvchoY_znU4lRs2gtdVuWYDTtZCq7FyN_PGzUsJ1YWpzwnBPN7SqyzLJoF9UmArHdn362UiVYgT6rKCggEqsZF7qHj9wJygw-3TfIsTbHt5VtHKxpWl3eNIsJpjQPcPRnZeBoY5d7yMzo-pzGhT-EO_F-cMoXrAnIgh5ZPx11T0gHLKDP1v
   
   

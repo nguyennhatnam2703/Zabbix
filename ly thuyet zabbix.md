@@ -39,22 +39,35 @@ giám sát.
 
 # Các thành phần cơ bản của Zabbix
 
-- Zabbix server
+- ![]( /image/ctzabbix.png)
+- `Zabbix server`
   + Zabbix Server có thể kiểm tra các dịch vụ mạng từ xa thông qua các báo cáo của Agent gửi về cho Zabbix Server và từ đó nó sẽ lưu trữ tất cả các cấu hình 
   cũng như là các số liệu thống kê.
 
-- Zabbix Proxy
+- `Zabbix Proxy`
   + Là phần tùy chọn của Zabbix. Nó có nhiệm vụ thu nhận dữ liệu, lưu trong bộ nhớ đệm và chuyển đến Zabbix Server.
   + Đây là một tùy chọn nên bạn có thể cài nó hoặc không nhưng nó sẽ rất hữu ích với hột hệ thống lớn. Nó sẽ giúp giảm tải cho Zabbix Server.
   + Zabbix Proxy là một giải pháp lý tưởng cho việc giám sát tập trung của các địa điểm từ xa, chi nhánh công ty, các mạng lưới không có quản trị viên nội bộ.
 
-- Zabbix Agent:
+- `Zabbix Agent`:
   + Zabbix Agent được cài đặt trên các thiết bị mà ta cần giám sát. Nó sẽ có nhiệm vụ thu thập thông tin và gửi nó về Zabbix Server.
 
-- Web interface:
+- `Web interface`:
   + Web interface giúp ta có thể truy cập để theo dõi các thiết bị ở bất kỳ đâu. Nó là một phần của zabbix server.
   
 - Database sử dụng MariaDB, MySQL, PostgresSQL để lưu trữ dữ liệu thu thập được. 
+
+# Một số khái niệm
+
+- Host: Là một máy tính, server, vps, chạy các hệ điều hành khác nhau hoặc một thực thể trong hệ thống mạng như là máy in, máy chấm công, máy photo, máy camera có hỗ trợ các giao thức mà monitor zabbix cung cấp
+
+- Templates: Là một bố cục hay một thành phần được tạo ra sẳn để không cần phải lặp đi lặp lại khi gặp đúng 1 trường hợp.
+
+- Items : Đơn giản là một nơi chứa các key như là key memory, key cpu, key hdd… Items được đưa vào trong một templates.
+
+- Triggers : Là một điều kiện khi thỏa mãn điều kiện của Triggers mà người lập trình đặt ra thì sẽ thực hiện một hành động nào đó tiếp theo.
+
+- Graphs : Là một sơ đồ giám sát trực quan để người quản trị nhìn các thông tin một cách dễ dàng hơn.
  
 
 
@@ -67,8 +80,8 @@ giám sát.
 
 
 # Tham khảo
-- https://news.cloud365.vn/zabbix-cai-dat-zabbix-server-phien-ban-4-4-tren-centos7/?fbclid=IwAR3fF2ildx8MORPW4hs9uCDcxuTllbOMLGlGkoiTPTi7X2I8k0i1Dzt1suk
-- https://news.cloud365.vn/zabbix-giam-sat-server-centos-7-bang-zabbix-agent/?fbclid=IwAR0N5VbXVoqIFuVAfZsLzJ-MSIvaoofSmvh7alcpzIXWNbjqg2hBRGzr6rI
+- 
+- 
 - https://techblog.vn/tong-quan-ve-zabbix
 - https://github.com/quangln94/Linux/tree/master/Monitoring/Zabbix
 - https://www.facebook.com/groups/quantrimang365/permalink/808013262983356/
