@@ -130,6 +130,8 @@ SNMP để thực hiện việc giám sát.
  
 # Một số khái niệm
 
+- ![]( /image/knzabbix.jpg)
+
 - Host: Các thiết bị mà cần giám sát,có thể là server,máy trạm,thiết bị mạng,thiết bị firewall,...Tạo host chính là việc đầu tiên trong cấu hình giám sát
   Zabbix. 
 
