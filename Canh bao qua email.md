@@ -87,5 +87,9 @@
   
   ( trung bình 1.5 process xử lý trong 5 phút)
   
+ # Tham khảo
+ 
+ - [1] https://news.cloud365.vn/zabbix-cau-hinh-zabbix-server-gui-canh-bao-qua-gmail/
+  
 
     
