@@ -69,7 +69,7 @@
 
    - Đặt tên cho rule
      
-    + ![]( /image/w10.png)
+   + ![]( /image/w10.png)
 
 ## Bước 5: Add host trên zabbix web
 
