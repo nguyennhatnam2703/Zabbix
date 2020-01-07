@@ -49,7 +49,7 @@
 
    - Tạo rule theo chiều inbound
    
-     + ![]( /image/w6.png)
+     + ![]( /image/w6.PNG)
   
    - Tạo rule cho port
 
