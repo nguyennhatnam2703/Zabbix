@@ -49,27 +49,27 @@
 
    - Tạo rule theo chiều inbound
    
-     + ![]( /image/w6.PNG)
+     + ![]( /image/w6.png)
   
    - Tạo rule cho port
 
-     + ![]( /image/w7.PNG)
+     + ![]( /image/w7.png)
    
    - Sử dụng TCP port 10050
     
-	+ ![]( /image/w8.PNG)
+	+ ![]( /image/w8.png)
 
    - Cho phép kết nối
 
-     + ![]( /image/w9.PNG)
+     + ![]( /image/w9.png)
 
    - Tích hết vào các rule
 
-     + ![]( /image/ww.PNG)
+     + ![]( /image/ww.png)
 
    - Đặt tên cho rule
      
-    + ![]( /image/w10.PNG)
+    + ![]( /image/w10.png)
 
 ## Bước 5: Add host trên zabbix web
 
@@ -87,7 +87,7 @@
    
 ## Kết quả khi add thành công:
 
-  - ![]( /image/w11.PNG)
+  - ![]( /image/w12.PNG)
 
 # Tổng kết:
 
