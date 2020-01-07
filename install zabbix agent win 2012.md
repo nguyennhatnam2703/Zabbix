@@ -57,7 +57,7 @@
    
    - Sử dụng TCP port 10050
     
-	+ ![]( /image/w8.png)
+   + ![]( /image/w8.png)
 
    - Cho phép kết nối
 
