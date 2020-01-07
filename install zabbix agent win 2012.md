@@ -1,8 +1,9 @@
 
 # Giám sát Windown Server bằng zabbix-agent
 
-- Mục tiêu: Bài viết này sẽ hướng dẫn bạn cách cài đặt zabbix-agent trên Windown Server 2012 để tiến hành các hoạt động theo dõi tình trạng tài nguyên của 
- Windown Server 2012.
+# Mục tiêu:
+- Bài viết này sẽ hướng dẫn bạn cách cài đặt zabbix-agent trên Windown Server 2012 để tiến hành các hoạt động theo dõi tình trạng tài nguyên của Windown Server 2012.
+ 
   
  
 # 1.Các bước cài đặt zabbix-agent trên Windown Server 2012
