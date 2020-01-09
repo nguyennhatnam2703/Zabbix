@@ -56,5 +56,9 @@
 - ![]( /image/cen3.PNG)
 
 - ( ở đây do mình cài agent lên chính zabbix server nên mình để tên là zabbix server luôn !)
+
+# Tham khảo:
+
+- [1] https://news.cloud365.vn/zabbix-giam-sat-server-centos-7-bang-zabbix-agent/
 	 
 
