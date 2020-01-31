@@ -74,6 +74,12 @@
   + Quan sát biểu đồ monitor thu được: 
 
   + ![]( /image/g9.PNG)   
+  
+# Tham khảo:
+
+- [1] https://news.cloud365.vn/zabbix-tich-hop-zabbix-vao-grafana/
+
+- [2] https://mdungblog.wordpress.com/2018/08/31/huong-dan-cai-dat-do-hoa-grafana-cho-zabbix/
   	
 
   
