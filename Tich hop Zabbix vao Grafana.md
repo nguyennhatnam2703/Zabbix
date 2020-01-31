@@ -49,15 +49,15 @@
   
 - Bước 4: enable plugin Zabbix.
 
-  +![]( /image/g3.PNG)
+  + ![]( /image/g3.PNG)
   
 - Bước 5: Add thêm data source
 
-  +  ![]( /image/g4.PNG)
+  + ![]( /image/g4.png)
 
-  + ![]( /image/g5.PNG)
+  + ![]( /image/g5.png)
   
-  + ![]( /image/g6.PNG)
+  + ![]( /image/g6.png)
   
   + Trong giao diện add, ta điền các thông số cần thiết của source, sau đó chọn Save and test:
 
