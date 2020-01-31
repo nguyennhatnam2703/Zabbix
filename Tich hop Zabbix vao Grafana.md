@@ -9,7 +9,7 @@
 
 # 2.Cài đặt Grafana cho Zabbix.
 
-- Bước 1: Cài đặt EPEL-repo
+- Bước 1: Cài đặt EPEL-repo : ` yum install epel-release `
 
 - Bước 2: Tải về các gói cài đặt: ` wget https://dl.grafana.com/oss/release/grafana-6.4.4-1.x86_64.rpm `
 
