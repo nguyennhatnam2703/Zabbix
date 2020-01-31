@@ -45,11 +45,11 @@
 	```
 - Bước 3: Trong danh sách các plugin ta tìm đến plugin là Zabbix
 
-  + ![]( /image/g2.PNG)
+  + ![]( /image/g2.png)
   
 - Bước 4: enable plugin Zabbix.
 
-  + ![]( /image/g3.PNG)
+  + ![]( /image/g3.png)
   
 - Bước 5: Add thêm data source
 
