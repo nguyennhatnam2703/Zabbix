@@ -2,7 +2,7 @@
 
 - Bước 1: Để tạo một Dashboard bạn click vào biểu tượng dấu cộng
   
-  + ![]( /image/da1.png)
+  + ![]( /image/daa.png)
   
 - Bước 2: Tiếp theo bạn add một panel mới:
 
@@ -15,6 +15,8 @@
   + Convert to row: Tạo row để tập hợp các panel.
 
 - Bước 3: Add query( ở đây bạn có thể  chọn Choose Visualization trước cũng được ) 
+
+  + ![]( /image/da3.png)
 
   + Querry Mode : Thường là chọn Metrics vì có nhiều thông tin tại đây , tuy nhiên cũng có thể phải chọn các giá trị khác (ví dụ hiển thị tên hostname thì sẽ 
   chọn Text chứ không chọn Metrics)  
@@ -37,7 +39,7 @@
 
   + Có nhiều loại hình thức hiển thị,ở đây thì mình chọn Gauge:
 
-  + ![]( /image/da6.PNG)
+  + ![]( /image/da6.png)
 
   + Tiếp theo bạn chọn đơn vị:
 
@@ -45,7 +47,7 @@
 
 - Bước 6: Để phân biệt các panel thì bạn có thể đổi tên panel:
 
-  + ![]( /image/da8.PNG)
+  + ![]( /image/da8.png)
 
 - Kết quả!!
 
