@@ -9,7 +9,7 @@
 
 # 2.Cài đặt Grafana cho Zabbix.
 
-- Bước 1: Cài đặt EPEL-repo
+- Bước 1: Cài đặt EPEL-repo : ` yum install epel-release `
 
 - Bước 2: Tải về các gói cài đặt: ` wget https://dl.grafana.com/oss/release/grafana-6.4.4-1.x86_64.rpm `
 
@@ -49,11 +49,11 @@
   
 - Bước 4: enable plugin Zabbix.
 
-  +![]( /image/g3.png)
+  + ![]( /image/g3.png)
   
 - Bước 5: Add thêm data source
 
-  +  ![]( /image/g4.png)
+  + ![]( /image/g4.png)
 
   + ![]( /image/g5.png)
   
@@ -74,6 +74,12 @@
   + Quan sát biểu đồ monitor thu được: 
 
   + ![]( /image/g9.PNG)   
+  
+# Tham khảo:
+
+- [1] https://news.cloud365.vn/zabbix-tich-hop-zabbix-vao-grafana/
+
+- [2] https://mdungblog.wordpress.com/2018/08/31/huong-dan-cai-dat-do-hoa-grafana-cho-zabbix/
   	
 
   
