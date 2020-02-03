@@ -2,11 +2,11 @@
 
 - Bước 1: Để tạo một Dashboard bạn click vào biểu tượng dấu cộng
   
-  + ![]( /image/da1.PNG)
+  + ![]( /image/da1.png)
   
 - Bước 2: Tiếp theo bạn add một panel mới:
 
-  +![]( /image/da2.PNG)
+  +![]( /image/da2.png)
 
   Ở đây có 3 sự lựa chọn:
   
