@@ -53,3 +53,10 @@
 
   + ![]( /image/da9.PNG)  
   
+  # Tham khảo:
+  
+  - [1] https://mdungblog.wordpress.com/2018/09/04/huong-dan-ve-zabbix-dashboard-voi-grafana/
+  
+  - [2] https://github.com/quangln94/Linux/blob/master/Grafana/09.Grafana.md
+  
+  - [3] https://github.com/hocchudong/thuctap012017/tree/master/TamNT/Graphite-Collectd-Grafana/docs
